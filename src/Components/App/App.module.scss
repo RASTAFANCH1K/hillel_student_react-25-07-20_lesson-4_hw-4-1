@@ -1,0 +1,36 @@
+.container {
+  max-width: 992px;
+  padding: 50px;
+  margin: 25px auto;
+  box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, .5);
+}
+
+.title {
+  margin-bottom: 25px;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.btn {
+  font-size: 18px;
+  font-weight: 500;
+  vertical-align: middle;
+  color: #fff;
+  background-color: #61dafb;
+  border: 2px solid #e0e9f0; 
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.5s;
+
+  &:hover {
+    background-color: #0fc0fc;
+  }
+}
+
+.btnRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}

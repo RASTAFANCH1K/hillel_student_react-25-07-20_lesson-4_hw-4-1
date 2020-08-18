@@ -1,0 +1,22 @@
+.counterWrap {
+  width: 26%;
+}
+
+.totalWrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total {
+  width: 50%;
+  border: 2px solid #e0e9f0; 
+  border-radius: 5px;
+}
+
+.totalTitle {
+  font-weight: 700;
+}
+
+.totalNum {
+  text-align: center;
+}
